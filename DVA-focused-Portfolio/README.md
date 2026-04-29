@@ -11,6 +11,6 @@ This directory contains the personal portfolios of the team members, highlightin
 | **Ashutosh**       | [View Protfolio](https://github.com/ashyou09/Portfolio_DVA#:~:text=About-,portfolio%2Ddva%2Dthree.vercel.app,-Resources) |
 | **Satyam**         | [View Portfolio](https://satyam-swarnakar-data-analyst-portfolio.vercel.app/)                                                                                                     |
 | **Himanshu**       | [Link Placeholder]                                                                                                    |
-| **Shagun Vishnoi** | [View Portfolio] (https://dva-oriented-portfolio-five.vercel.app/)                                                                                                  |
+| **Shagun Vishnoi** | [View Portfolio](https://dva-oriented-portfolio-five.vercel.app/)                                                                                                  |
 
 ---
