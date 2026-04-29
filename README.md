@@ -1,4 +1,4 @@
-# 🌍 AIR Pulse — Global AQI Analytics
+#  AIR Pulse — Global AQI Analytics
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Environmental%20Analytics-green"/>
@@ -8,19 +8,39 @@
 </p>
 
 ---
+## Table of Contents
 
-## 🚀 Executive Summary
+- [ Executive Summary](#-executive-summary)
+- [ Problem Statement](#-problem-statement)
+- [ Dataset Overview](#-dataset-overview)
+- [ Key Variables](#-key-variables)
+- [ Data Pipeline](#️-data-pipeline)
+- [ KPI Framework](#-kpi-framework)
+- [ Key Insights](#-key-insights)
+- [ Advanced Analysis](#-advanced-analysis)
+- [ City Segmentation](#-city-segmentation)
+- [ Sustainability Rankings](#-top-sustainability-rankings)
+- [ Tableau Dashboard](#-tableau-dashboard)
+- [ Recommendations](#-recommendations)
+- [ Impact Estimation](#-impact-estimation)
+- [ Limitations](#️-limitations)
+- [ Future Scope](#-future-scope)
+- [ Contribution Summary](#-contribution-summary)
+- [ Submission Details](#-submission-details)
+- [ Conclusion](#-conclusion)
+
+##  Executive Summary
 Air pollution is one of the most critical global challenges.
 
-- 🌍 **Average AQI:** 132.1 (Unhealthy)  
-- 🌫 **PM2.5 Levels:** 71.72 µg/m³ (>14× WHO limit)  
-- 📊 **Dataset:** 34,885 city-year records  
+-  **Average AQI:** 132.1 (Unhealthy)  
+-  **PM2.5 Levels:** 71.72 µg/m³ (>14× WHO limit)  
+-  **Dataset:** 34,885 city-year records  
 
-👉 This project identifies **key drivers of air pollution** and provides **data-driven policy recommendations**.
+This project identifies **key drivers of air pollution** and provides **data-driven policy recommendations**.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 > Despite increasing environmental spending, air quality continues to deteriorate.
 
 **Goal:**  
@@ -28,7 +48,7 @@ Identify **which factors drive AQI** and **what interventions improve it most ef
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 | Attribute | Value |
 |----------|------|
@@ -39,7 +59,7 @@ Identify **which factors drive AQI** and **what interventions improve it most ef
 
 ---
 
-## 📂 Key Variables
+##  Key Variables
 
 | Variable | Description |
 |--------|------------|
@@ -55,21 +75,21 @@ Identify **which factors drive AQI** and **what interventions improve it most ef
 
 ---
 
-## ⚙️ Data Pipeline
+##  Data Pipeline
 Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 ---
 
-## 🔧 Data Engineering
+##  Data Engineering
 
 ### Cleaning
 
 | Step | Description |
 |------|------------|
-| 🧹 Duplicate Removal | Removed repeated records |
-| 📉 Missing Values | Median imputation |
-| 📊 Outliers | IQR method |
-| 🔄 Standardization | Unified formats |
+|  Duplicate Removal | Removed repeated records |
+|  Missing Values | Median imputation |
+|  Outliers | IQR method |
+|  Standardization | Unified formats |
 
 ### Feature Engineering
 
@@ -81,29 +101,28 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 ---
 
-## 📈 KPI Framework
+##  KPI Framework
 
 | Category | KPIs |
 |--------|------|
-| 🌫 Air Quality | AQI, PM2.5, PM10 |
-| 🚗 Drivers | CO₂, Vehicles, Deforestation |
-| 💰 Policy | Environmental Budget |
-| ❤️ Outcomes | Life Expectancy |
+| Air Quality | AQI, PM2.5, PM10 |
+| Drivers | CO₂, Vehicles, Deforestation |
+| Policy | Environmental Budget |
+| Outcomes | Life Expectancy |
 
 ---
 
-## 🔍 Key Insights
 
-## 📊 Key Insights
+##  Key Insights
 
-- 🚗 Vehicle Growth → Strong positive correlation *(r = 0.79)*  
-- 🏭 CO₂ Emissions → Strongest predictor *(r = 0.90)*  
-- 🌿 Green Space → Strongest mitigator *(r = -0.87)*  
-- 💰 Environmental Budget → Reduces AQI *(r = -0.49)*  
-- ⚠️ 50 cities are projected to exceed AQI 300 without intervention  
+-  Vehicle Growth → Strong positive correlation *(r = 0.79)*  
+-  CO₂ Emissions → Strongest predictor *(r = 0.90)*  
+-  Green Space → Strongest mitigator *(r = -0.87)*  
+-  Environmental Budget → Reduces AQI *(r = -0.49)*  
+-  50 cities are projected to exceed AQI 300 without intervention  
 ---
 
-## 🧠 Advanced Analysis
+## Advanced Analysis
 
 ### Correlation Table
 
@@ -119,17 +138,17 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 ---
 
-## 🌍 City Segmentation
+##  City Segmentation
 
 | Category | Description |
 |----------|------------|
-| 🔴 High Risk | High AQI + Low budget + Low green |
-| 🟡 Mid Range | Moderate AQI |
-| 🟢 Model Cities | Low AQI + High sustainability |
+|  High Risk | High AQI + Low budget + Low green |
+|  Mid Range | Moderate AQI |
+|  Model Cities | Low AQI + High sustainability |
 
 ---
 
-## 🏆 Top Sustainability Rankings
+##  Top Sustainability Rankings
 | Country | AQI | Budget | Green % | Life Exp | Score |
 |--------|-----|--------|---------|---------|------|
 | Sweden | 37.8 | 399.2 | 42.3 | 83.9 | 100.1 |
@@ -144,50 +163,50 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 | Germany | 38.1 | 386.0 | 42.3 | 83.9 | 94.9 |
 ---
 
-## 📊 Tableau Dashboard
+##  Tableau Dashboard
 
-### 🔹 Dashboard Structure
+###  Dashboard Structure
 
 | Page | Focus |
 |------|------|
-| 🟢 Executive | AQI overview & trends |
-| 🟡 Root Cause | Drivers analysis |
-| 🔵 Solutions | Policy impact |
+|  Executive | AQI overview & trends |
+|  Root Cause | Drivers analysis |
+|  Solutions | Policy impact |
 
-### 📸 Dashboard Preview
-### 🟢 Executive Overview
+###  Dashboard Preview
+###  Executive Overview
 <p align="center">
   <img src="tableau/screenshots/01 - Overview.png" width="90%" />
 </p>
 
 ---
 
-### 🟡 Root Cause Analysis
+###  Root Cause Analysis
 <p align="center">
   <img src="tableau/screenshots/02 - Root Cause.png" width="90%" />
 </p>
 
 ---
 
-### 🔵 Solutions & Policy Effectiveness
+###  Solutions & Policy Effectiveness
 <p align="center">
   <img src="tableau/screenshots/03 - Solution.png" width="90%" />
 </p>
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 | Action | Impact |
 |--------|--------|
-| 🌿 Expand Green Space | AQI ↓ 15–30 |
-| 🚗 Reduce Vehicles | Stabilize AQI |
-| 💰 KPI Budgeting | Better efficiency |
-| 🌳 Stop Deforestation | Long-term AQI ↓ |
-| 🎯 Focus 50 Cities | High impact |
+|  Expand Green Space | AQI ↓ 15–30 |
+|  Reduce Vehicles | Stabilize AQI |
+|  KPI Budgeting | Better efficiency |
+|  Stop Deforestation | Long-term AQI ↓ |
+|  Focus 50 Cities | High impact |
 
 ---
 
-## 📉 Impact Estimation
+##  Impact Estimation
 
 | Domain | Impact |
 |------|--------|
@@ -197,14 +216,14 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - Correlation ≠ causation  
 - Missing governance data  
 - City-level aggregation  
 
 ---
 
-## 🚀 Future Scope
+##  Future Scope
 - Real-time AQI dashboards  
 - ML forecasting  
 - Satellite monitoring  
@@ -212,7 +231,7 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 ---
 
-## 👥 Contribution Matrix
+##  Contribution Matrix
 
 | Member | ETL | EDA | Stats | Dashboard | Report |
 |-------|-----|-----|------|----------|--------|
@@ -227,7 +246,7 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 
 
-## 📅 Submission Details
+##  Submission Details
 
 | Field | Value |
 |------|------|
@@ -236,7 +255,7 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 | Submission Date | April 29, 2026 |
 ---
 
-## ⭐ Conclusion
+##  Conclusion
 Air pollution is **not inevitable** — it is driven by controllable factors.
 
 ✔ Cities investing in:
@@ -244,7 +263,7 @@ Air pollution is **not inevitable** — it is driven by controllable factors.
 - Sustainable transport  
 - Smart budgeting  
 
-👉 Achieve **lower AQI and better health outcomes**
+ Achieve **lower AQI and better health outcomes**
 
 ---
 
