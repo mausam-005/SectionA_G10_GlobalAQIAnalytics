@@ -221,17 +221,19 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 | Mausam |  | ✓ | ✓ | ✓ |  |
 | Satyam | ✓ | ✓ | ✓ |  |  |
 | Himanshu | ✓ |  | ✓ | ✓ |  |
-| **Shagun Vishnoi** | ✓ | ✓ |  | ✓ |  |
+| Shagun Vishnoi | ✓ | ✓ |  | ✓ |  |
 
 ---
 
-## 📅 Submission
+
+
+## 📅 Submission Details
 
 | Field | Value |
 |------|------|
 | Institute | Newton School of Technology |
-| Date | April 29, 2026 |
-
+| Faculty Mentor | Aayushi Mam |
+| Submission Date | April 29, 2026 |
 ---
 
 ## ⭐ Conclusion
