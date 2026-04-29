@@ -94,13 +94,13 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 
 ## 🔍 Key Insights
 
-| Insight | Finding |
-|--------|--------|
-| 🚗 Vehicles | r = 0.79 (major driver) |
-| 🏭 CO₂ | r = 0.90 (strongest driver) |
-| 🌿 Green Space | r = -0.87 (best mitigator) |
-| 💰 Budget | r = -0.49 (reduces AQI) |
+## 📊 Key Insights
 
+- 🚗 Vehicle Growth → Strong positive correlation *(r = 0.79)*  
+- 🏭 CO₂ Emissions → Strongest predictor *(r = 0.90)*  
+- 🌿 Green Space → Strongest mitigator *(r = -0.87)*  
+- 💰 Environmental Budget → Reduces AQI *(r = -0.49)*  
+- ⚠️ 50 cities are projected to exceed AQI 300 without intervention  
 ---
 
 ## 🧠 Advanced Analysis
@@ -130,13 +130,18 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 ---
 
 ## 🏆 Top Sustainability Rankings
-
 | Country | AQI | Budget | Green % | Life Exp | Score |
 |--------|-----|--------|---------|---------|------|
 | Sweden | 37.8 | 399.2 | 42.3 | 83.9 | 100.1 |
 | Netherlands | 37.3 | 407.1 | 42.5 | 83.9 | 99.7 |
 | Australia | 37.7 | 390.6 | 42.5 | 83.9 | 98.7 |
-
+| Japan | 37.6 | 400.2 | 42.5 | 83.9 | 98.6 |
+| Italy | 38.5 | 382.2 | 42.4 | 83.9 | 98.0 |
+| France | 39.7 | 394.9 | 42.4 | 83.8 | 97.2 |
+| Canada | 38.2 | 392.2 | 42.5 | 83.9 | 96.3 |
+| Spain | 38.5 | 390.8 | 42.1 | 83.9 | 95.7 |
+| Norway | 39.1 | 400.6 | 42.2 | 83.8 | 95.5 |
+| Germany | 38.1 | 386.0 | 42.3 | 83.9 | 94.9 |
 ---
 
 ## 📊 Tableau Dashboard
@@ -152,21 +157,21 @@ Raw Data → Cleaning → Feature Engineering → Analysis → Tableau Dashboard
 ### 📸 Dashboard Preview
 ### 🟢 Executive Overview
 <p align="center">
-  <img src="images/dashboard1.png" width="90%" />
+  <img src="tableau/screenshots/01 - Overview.png" width="90%" />
 </p>
 
 ---
 
 ### 🟡 Root Cause Analysis
 <p align="center">
-  <img src="images/dashboard2.png" width="90%" />
+  <img src="tableau/screenshots/02 - Root Cause.png" width="90%" />
 </p>
 
 ---
 
 ### 🔵 Solutions & Policy Effectiveness
 <p align="center">
-  <img src="images/dashboard3.png" width="90%" />
+  <img src="tableau/screenshots/03 - Solution.png" width="90%" />
 </p>
 ---
 
