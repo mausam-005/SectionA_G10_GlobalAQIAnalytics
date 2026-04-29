@@ -249,6 +249,17 @@ https://public.tableau.com/app/profile/mausam.kumar8507/viz/Tableau_Dashboard_Fi
 
 ##  Submission Details
 
+## 📌 Project Information
+
+| Field              | Details                                      |
+|-------------------|----------------------------------------------|
+| **Sector**        | Environmental Analytics / Public Health      |
+| **Team ID**       | SEC-A G-10                                         |
+| **Faculty Mentor**| Aayushi Mam                                  |
+| **Institute**     | Newton School of Technology                  |
+| **Submission Date**| April 29, 2026                              |
+| **GitHub**        | [Repository Link](https://github.com/AlgoWitch/SectionA_G10_GlobalAQIAnalytics) |
+
 | Field | Value |
 |------|------|
 | Institute | Newton School of Technology |
